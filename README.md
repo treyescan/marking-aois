@@ -4,8 +4,7 @@ The goal of this part of the HPT toolset is to let experts identify **MUST** and
 
 > A demo can be found on: https://hpt.joriswvanrijn.com/
 
-<img src="./screenshots/screenshot1.png" width="600" />
-
+![Screenshot 1](/screenshots/screenshot1.png)
 _screenshot 1_
 
 ## Usage
@@ -26,6 +25,7 @@ _screenshot 1_
 
 ## Screenshots
 
+<p align="center">
 <img src="./screenshots/screenshot2.png" width="300" />
 
 _screenshot 2_
@@ -38,13 +38,15 @@ _screenshot 3_
 
 _screenshot 4_
 
-<img src="./screenshots/screenshot5.png" width="600" />
+<img src="./screenshots/screenshot5.png" width="800" />
 
 _screenshot 5_
 
-<img src="./screenshots/screenshot6.png" width="600" />
+<img src="./screenshots/screenshot6.png" width="800" />
 
 _screenshot 6_
+
+</p>
 
 ## Requirements
 
