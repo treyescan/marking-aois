@@ -26,11 +26,11 @@ _screenshot 1_
 ## Screenshots
 
 <p align="center" width="100%">
-    <img width="20%" src="./screenshots/screenshot2.png"> 
-    <img width="20%" src="./screenshots/screenshot3.png"> 
-    <img width="20%" src="./screenshots/screenshot4.png"> 
-    <img width="20%" src="./screenshots/screenshot5.png"> 
-    <img width="20%" src="./screenshots/screenshot6.png"> 
+    <img width="15%" src="./screenshots/screenshot2.png"> 
+    <img width="15%" src="./screenshots/screenshot3.png"> 
+    <img width="15%" src="./screenshots/screenshot4.png"> 
+    <img width="15%" src="./screenshots/screenshot5.png"> 
+    <img width="15%" src="./screenshots/screenshot6.png"> 
 </p>
 
 _ltr: screenshot 2 until 6_
