@@ -98,6 +98,12 @@ To deploy this Laravel application, follow the steps in [Installation](#installa
 
 ## Citation
 
+```
+Faraji, Y., & van Rijn, J. W. (2022). Marking AOIs v1.0.0 (Version v1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7022592
+```
+
+DOI: `10.5281/zenodo.7022592`
+
 ## Contribution
 
 [Issues](https://github.com/treyescan/marking-aois/issues/new) and other contributions are welcome.
