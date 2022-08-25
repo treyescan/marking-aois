@@ -25,28 +25,15 @@ _screenshot 1_
 
 ## Screenshots
 
-<p align="center">
-<img src="./screenshots/screenshot2.png" width="300" />
-
-_screenshot 2_
-
-<img src="./screenshots/screenshot3.png" width="300" />
-
-_screenshot 3_
-
-<img src="./screenshots/screenshot4.png" width="300" />
-
-_screenshot 4_
-
-<img src="./screenshots/screenshot5.png" width="800" />
-
-_screenshot 5_
-
-<img src="./screenshots/screenshot6.png" width="800" />
-
-_screenshot 6_
-
+<p align="center" width="100%">
+    <img width="20%" src="./screenshots/screenshot2.png"> 
+    <img width="20%" src="./screenshots/screenshot3.png"> 
+    <img width="20%" src="./screenshots/screenshot4.png"> 
+    <img width="20%" src="./screenshots/screenshot5.png"> 
+    <img width="20%" src="./screenshots/screenshot6.png"> 
 </p>
+
+_ltr: screenshot 2 until 6_
 
 ## Requirements
 
