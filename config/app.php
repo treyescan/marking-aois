@@ -2,6 +2,9 @@
 
 return [
 
+    'number_videos' => env('NUMBER_VIDEOS', 7),
+    'video_url' => env('VIDEO_URL', 'http://localhost/videos'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

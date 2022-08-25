@@ -49,7 +49,7 @@ class MainController extends Controller
         ];
         session()->put('user', $user);
 
-        if (! session()->has('id')) {
+        if (!session()->has('id')) {
             // Generate a session ID by hashing the array
             $id = md5(json_encode($user));
             session()->put('id', $id);
@@ -58,12 +58,12 @@ class MainController extends Controller
         }
 
         // Save all details to a file (with hash as ID)
-        $file = storage_path('app/public/data/session_details_'.$id.'.csv');
+        $file = storage_path('app/public/data/session_details_' . $id . '.csv');
         $user['session_id'] = $id;
         $user['date'] = date('Y-m-d');
         $user['time'] = date('H:i');
         file_put_contents($file, collect($user)->map(function ($item, $key) {
-            return $key.','.$item;
+            return $key . ',' . $item;
         })->implode(PHP_EOL));
 
         return redirect()->route('introductie');
@@ -82,15 +82,15 @@ class MainController extends Controller
     {
         $isReplay = Route::current()->getName() == 'replay';
 
-        if (! session()->has('id') && ! $isReplay) {
+        if (!session()->has('id') && !$isReplay) {
             return redirect()->route('start');
         }
 
         // Check if we have a file in which we may save data points
-        $file = storage_path('app/public/data/video_'.$index.'___session_'.$id.'.csv');
+        $file = storage_path('app/public/data/video_' . $index . '___session_' . $id . '.csv');
         $data = [];
 
-        if (! file_exists($file)) {
+        if (!file_exists($file)) {
             // If it doesn't exist: create an empty file
             file_put_contents($file, 'time,x,y,type');
         } else {
@@ -112,9 +112,9 @@ class MainController extends Controller
             });
         }
 
-        $videoPath = asset('videos/video_'.$index.'.webm');
+        $videoPath = asset('videos/video_' . $index . '.webm');
         if (\App::environment('local')) {
-            $videoPath = 'https://hpt.joriswvanrijn.com/videos/video_'.$index.'.webm';
+            $videoPath = config('app.video_url') . '/video_' . $index . '.webm';
         }
 
         return view('video', [
