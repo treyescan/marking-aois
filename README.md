@@ -14,7 +14,7 @@ _screenshot 1_
 1. After this, the user will be presented with a demo video. The purpose of this video is to get a grasp of the interface and the task at hand. (screenshot 5)
 1. On continuing, the first video will open, on which users may indicate MUST and MAY be seen Areas Of Interest. Users can control the flow of the video (speed, rewind, etc). Clicks = May be seen. Shift + click = Must be seen.
 1. After clicking, the samples will be collected in a list under the video. Users may remove samples here. (screenshot 1). Users may continue to the next video and return to a previous video at any time.
-1. Both the user session information and the clicks on the video are stored in files (no database required). These files may be downloaded from the webserver. Aditionally, the files can be seen from a simple web interface (`{website}/list`, e.g. https://hpt.joriswvanrijn.com/list) and the videos can be replayed, with clicks overlayed (screenshot 6).
+1. Both the user session information and the clicks on the video are stored in files (no database required). These files may be downloaded from the webserver. Aditionally, the files can be seen from a simple web interface (`{website}/list`) and the videos can be replayed, with clicks overlayed (screenshot 6).
 1. After finishing all videos, the user is thanked (screenshot 7).
 
 **Notes:**
