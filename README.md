@@ -1,6 +1,6 @@
 # Marking AOIs
 
-The goal of this part of the HPT toolset is to let experts identify **MUST** and **MAY** be seen Areas Of Interest. This folder contains a Laravel web-applicaton and should be uploaded to a web server to function properly.
+The goal of this part of the TREYESCAN toolset is to let experts identify **MUST** and **MAY** be seen Areas Of Interest. This folder contains a Laravel web-applicaton and should be uploaded to a web server to function properly.
 
 > A demo can be found on: https://hpt.joriswvanrijn.com/
 
