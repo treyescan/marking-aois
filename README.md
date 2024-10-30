@@ -41,7 +41,7 @@ _ltr: screenshot 2 until 7_
 
 ## Requirements
 
--   PHP webserver (deployment)
+-   PHP 7.3 webserver (deployment)
 -   NB: A database is **not** required
 -   Composer (development)
 -   Node/npm (development)
